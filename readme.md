@@ -3,9 +3,10 @@
 Everything required for Marketplace to run normally
 
 ## PHP Extensions
--  sodium   (Message encryptuon)
+-  sodium   (Message encryption)
 -  gmp (Precision calculation)
 -  xmlrpc (Bitmessage communication protocol)
 ## Additional services
 - Bitcoind (Processing transactions)
 - Elasticsearch (Searching trough records)
+- Monerod
