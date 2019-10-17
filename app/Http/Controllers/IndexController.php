@@ -19,6 +19,9 @@ use Illuminate\Support\Facades\Log;
  */
 class IndexController extends Controller
 {
+
+     $this -> middleware('verify_2fa');
+     
     /**
      * Handles the index page request
      *
