@@ -25,6 +25,8 @@ class AdminController extends Controller
     public function __construct()
     {
         $this -> middleware('admin_panel_access');
+        $this -> middleware('auth');
+        $this -> middleware('verify_2fa');
     }
 
     private function categoriesCheck(){
